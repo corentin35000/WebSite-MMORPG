@@ -1,0 +1,76 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 10px 0 10px 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul > li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.containerConnectInscription {
+    display: flex;
+    margin-right: 25px;
+}
+
+.buttonConnect {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 32px;
+    border-radius: 8px;
+    padding: 16px 16px;
+    background-color: #282828;
+    color: white;
+    margin-right: 10px;
+}
+
+.buttonPlay:hover {
+    background: rgb(0, 178, 207);
+    cursor: pointer;
+}
+
+.buttonPlay {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 32px;
+    border-radius: 12px;
+    padding: 16px 16px ;
+    color: #111;
+    background: rgb(11, 196, 226);
+}
+
+.buttonConnect:hover {
+    cursor: pointer;
+}
+
+.navLogos {
+    margin-left: 30px;
+}
+
+.navLogo1 {
+    margin-right: 10px;
+}
+
+.navLogo2 {
+
+}
+
